@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# lucky one
+Live website link [lucky one](https://effortless-sunburst-2a2a21.netlify.app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
