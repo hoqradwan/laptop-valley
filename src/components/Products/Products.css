@@ -34,6 +34,10 @@
 
 @media screen and (max-width: 688px){
     .products-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
     }
 } 
