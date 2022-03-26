@@ -18,12 +18,12 @@ const Products = () => {
     setCart([]);
   };
 
-  // -----------------------------------------------
-const chooseOne = () =>{
+  const chooseOne = () => {
+    const randomElement = cart[Math.floor(Math.random() * cart.length)];
+    const chosenElement = [randomElement];
+    setCart(chosenElement);
+  };
 
-}
-
-// --------------------------------------------------
   return (
     <div className="container">
       <div className="products-container">
@@ -38,14 +38,16 @@ const chooseOne = () =>{
       <div className="cart-container">
         <Cart cart={cart}></Cart>
         <div className="choose-container">
-        <button className="choose-btn" onClick={chooseOne}>CHOOSE 1 LAPTOP FOR ME</button>
-        <button className="choose-btn" onClick={chooseAgain}>CHOOSE AGAIN</button>
+          <button className="choose-btn" onClick={chooseOne}>
+            CHOOSE 1 LAPTOP FOR ME
+          </button>
+          <button className="choose-btn" onClick={chooseAgain}>
+            CHOOSE AGAIN
+          </button>
         </div>
-       
       </div>
     </div>
   );
 };
 
 export default Products;
-
