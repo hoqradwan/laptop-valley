@@ -1,21 +1,18 @@
 .container{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    gap: 10px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .products-container{
-    margin-top: 20px;
-    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
+    gap: 45px;
+    margin: 50px 50px;
 }
 .cart-container{
     position: sticky;
     top: 0;
     background-color: #daebe8;
-    height: 2000px;
 }
 
 .choose-container{
@@ -23,8 +20,7 @@
     flex-direction: column;
     position: sticky;
     top: 500px;
-    bottom: 400px;
-   
+    bottom: 400px;  
 }
 .choose-btn{
     background-color: #6995ac;
