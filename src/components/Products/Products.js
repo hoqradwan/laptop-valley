@@ -11,7 +11,6 @@ const Products = () => {
       .then((data) => setProducts(data));
   }, []);
   const [cart, setCart] = useState([]);
-  // console.log(cart);
   const handleAddToCart = (name) => {
     setCart([...cart, name]);
   };
@@ -38,8 +37,11 @@ const chooseOne = () =>{
       </div>
       <div className="cart-container">
         <Cart cart={cart}></Cart>
+        <div className="choose-container">
         <button className="choose-btn" onClick={chooseOne}>CHOOSE 1 LAPTOP FOR ME</button>
         <button className="choose-btn" onClick={chooseAgain}>CHOOSE AGAIN</button>
+        </div>
+       
       </div>
     </div>
   );

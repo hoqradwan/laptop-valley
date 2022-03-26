@@ -9,5 +9,10 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     padding: 20px;
-
 }
+
+@media screen and (max-width: 688px){
+    .answers-container{
+        grid-template-columns: 1fr;
+    }
+} 

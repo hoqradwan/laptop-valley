@@ -18,13 +18,21 @@
     height: 2000px;
 }
 
+.choose-container{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 500px;
+    bottom: 400px;
+   
+}
 .choose-btn{
     background-color: #6995ac;
     color: white;
     border: none;
     border-radius: 20px;
     padding: 15px;
-    margin-top: 10px;
+    margin: 15px;
     font-size: 15px;
     cursor: pointer;
 }

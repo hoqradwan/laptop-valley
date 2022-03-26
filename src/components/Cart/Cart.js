@@ -1,18 +1,15 @@
 import React from "react";
-import './Cart.css';
+import "./Cart.css";
 
-const Cart = (props) => {
-
-    const {cart} = props;    
-  
+const Cart = ({ cart }) => {
   return (
     <div className="cart">
       <h2>Order List</h2>
-     <ol>
-     {
-        cart.map(name => <li>{name}</li>)
-        }
-     </ol>
+      <ol>
+        {cart.map((name) => (
+          <li>{name}</li>
+        ))}
+      </ol>
     </div>
   );
 };
