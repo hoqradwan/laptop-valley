@@ -8,7 +8,7 @@ const Product = ({ product, handleAddToCart }) => {
   return (
     <div className="product-container">
       <img src={image} alt="" />
-      <h2>{name}</h2>
+      <h4>{name}</h4>
       <p className="price">$ {price}</p>
       <button className="btn-cart" onClick={() => handleAddToCart(name)}>
         <p className="btn-text">Add to cart</p>
