@@ -1,0 +1,23 @@
+.product-container img {
+  width: 268px;
+  height: 268px;
+}
+.product-container{
+  background-color: #b7d7e8;
+  position: relative;
+  padding-top: 20px;
+}
+.btn-cart {
+  width: 100%;
+  background-color: #6995ac;
+  color: white;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.btn-cart .btn-text{
+     margin-right: 10px;
+}

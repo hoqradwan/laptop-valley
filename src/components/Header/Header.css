@@ -1,0 +1,13 @@
+.header {
+  background-color: #cfe0e8;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+}

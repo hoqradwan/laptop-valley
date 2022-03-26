@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "image": "./images/laptop-1.png",
+        "name": "Lenovo Chromebook S330 Laptop",
+        "price": 199
+
+    
+    },
+	{
+        "id": 2,
+        "image": "./images/laptop-2.png",
+        "name": "HP 17.3 inch FHD IPS Display Laptop PC Intel 11th Gen",
+        "price": 250
+    },
+	{
+        "id": 3,
+        "image": "./images/laptop-3.png",
+        "name": "Acer Aspire 5 A515-46-R3UB",
+        "price": 369
+    },
+	{
+        "id": 4,
+        "image": "./images/laptop-4.png",
+        "name": "Lenovo IdeaPad 3 Laptop",
+        "price": 429
+    },
+	{
+        "id": 5,
+        "image": "./images/laptop-5.png",
+        "name": "HP Stream 14 inches HD(1366x768) Display",
+        "price": 219
+
+    },
+	{
+        "id": 6,
+        "image": "./images/laptop-6.png",
+        "name": "ASUS ROG Strix Scar 15 (2022) Gaming Laptop",
+        "price": 3299
+
+    },
+	{
+        "id": 7,
+        "image": "./images/laptop-7.png",
+        "name": "Razer Blade 17 Gaming Laptop: NVIDIA GeForce RTX 3070 Ti",
+        "price": 3199
+
+    },
+	{
+        "id": 8,
+        "image": "./images/laptop-8.png",
+        "name": "ASUS ZenBook Flip 13 OLED Ultra Slim 2-in-1 Laptop",
+        "price": 1148
+
+    },
+	{
+        "id": 9,
+        "image": "./images/laptop-9.png",
+        "name": "2020 Flagship HP 14 Chromebook",
+        "price": 255
+    },
+	{
+        "id": 10,
+        "image": "./images/laptop-10.png",
+        "name": "MSI GS76 Stealth Gaming Laptop",
+        "price": 3499
+    },
+	{
+        "id": 11,
+        "image": "./images/laptop-11.png",
+        "name": "Lenovo Chromebook S330 14in Laptop Computer",
+        "price": 125
+    },
+	{
+        "id": 12,
+        "image": "./images/laptop-12.png",
+        "name": "2020 Apple MacBook Air Laptop",
+        "price": 966.83
+
+    }
+]
