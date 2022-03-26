@@ -18,6 +18,17 @@
     height: 2000px;
 }
 
+.choose-btn{
+    background-color: #6995ac;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 688px){
     .products-container{
         grid-template-columns: 1fr;

@@ -19,6 +19,12 @@ const Products = () => {
     setCart([]);
   };
 
+  // -----------------------------------------------
+const chooseOne = () =>{
+
+}
+
+// --------------------------------------------------
   return (
     <div className="container">
       <div className="products-container">
@@ -32,8 +38,8 @@ const Products = () => {
       </div>
       <div className="cart-container">
         <Cart cart={cart}></Cart>
-        <button>CHOOSE 1 LAPTOP FOR ME</button>
-        <button className="choose-again-btn" onClick={chooseAgain}>CHOOSE AGAIN</button>
+        <button className="choose-btn" onClick={chooseOne}>CHOOSE 1 LAPTOP FOR ME</button>
+        <button className="choose-btn" onClick={chooseAgain}>CHOOSE AGAIN</button>
       </div>
     </div>
   );
